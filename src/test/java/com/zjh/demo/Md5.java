@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.zjh.demo;
 
 import org.apache.shiro.crypto.SecureRandomNumberGenerator;
 import org.apache.shiro.crypto.hash.SimpleHash;
