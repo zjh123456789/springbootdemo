@@ -1,0 +1,7 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /fore
+name: 李太白
+age: 30
+content: "name: ${name}, age: ${age} 【-nodev环境】"

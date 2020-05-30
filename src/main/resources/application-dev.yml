@@ -1,0 +1,7 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /fore
+name: 石破天
+age: 30
+content: "name: ${name}, age: ${age} 【-dev环境】"

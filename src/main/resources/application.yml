@@ -1,0 +1,12 @@
+spring:
+  profiles:
+      active: nodev
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/school?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: admin
+  jpa:
+      hibernate:
+          ddl-auto: create
+      show-sql: true
